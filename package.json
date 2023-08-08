@@ -1,4 +1,6 @@
+
 {
+  "homepage": "https://KDinesh2003.github.io/Router",
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
@@ -37,4 +39,9 @@
       "last 1 safari version"
     ]
   }
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
 }
